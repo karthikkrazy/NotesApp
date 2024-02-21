@@ -73,6 +73,7 @@ flutter:
     - assets/images/notes.png
     - assets/images/noteicon.png
     - assets/images/noteicon2.png
+    - assets/images/handnotes.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

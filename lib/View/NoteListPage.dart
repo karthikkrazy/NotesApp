@@ -103,28 +103,10 @@ class _NoteListPageState extends State<NoteListPage> {
           padding: const EdgeInsets.fromLTRB(8, 8, 8, 0),
           child: noteController.notes.length == 0
               ? Center(
-                  child: Stack(
-                    alignment: Alignment
-                        .center, // This will center the text on the image
-                    children: [
-                      Container(
-                          height: 350,
-                          width: 350,
-                          child: Image.asset('assets/images/notes.png')),
-                      Text(
-                        "   A D D\nN O T E S",
-                        style: TextStyle(
-                          fontFamily: "Roboto",
-                          fontStyle: FontStyle.italic,
-                          fontSize: 20, // Adjust font size as needed
-                          color: Colors.white, // Adjust text color as needed
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-
-                    // replace with your image asset
-                  ),
+                  child: Container(
+                      height: 250,
+                      width: 250,
+                      child: Image.asset('assets/images/handnotes.png')),
                 )
               : ListView.builder(
                   itemCount: noteController.notes.length,

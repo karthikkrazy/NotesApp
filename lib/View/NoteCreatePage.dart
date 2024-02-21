@@ -146,6 +146,7 @@ class _NoteCreatePageState extends State<NoteCreatePage> {
                 ),
               if (imagePath != null)
                 Container(
+                  alignment: Alignment.center,
                   width: 200.0,
                   height: 200.0,
                   child: Image.file(File(Uri.parse(imagePath!).path),
